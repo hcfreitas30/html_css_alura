@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tiny5&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100hv;
+    box-sizing: border-box;
+    background-color: #040D12;
+    color: #5C8374;
+}
+
+.principal{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.principal__conteudo__titulo{
+    text-align: justify;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.Titulo-destaque {
+    color: #183D3D;
+}
+
+.principal__conteudo__paragrafo{
+    text-align: justify;
+    font-size: 24px;
+    font-family: "Tiny5", sans-serif;
+    color: #5C8374;
+
+}
+
+.Bate-papo{
+    color: #667a7a;
+    border: 1px solid #183D3D;
+    padding: 5px;
+} 
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__botao{
+    background-color: cadetblue;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #040D12;
+    font-family: "Roboto", sans-serif;   
+    font-weight: 600; 
+}
+
+.img-principal {
+    width: 500px;
+    height: 500px;
+    
+}
